@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <header>
             <nav class="navbar navbar-expand-md navbar-light bg-light">
               <div class="container">
@@ -42,10 +46,29 @@
                         </div>
                         <a href="#" class="nav-link ml-1">Notícias</a>
                     </li>
+                              
+                <?php
+
+                  if(isset($_SESSION['nome'])) {
+
+                    $nome = $_SESSION['nome'];
+   
+                ?>
+
+                  <li class="nav-item d-flex m-1">
+                        <div class="d-block d-md-none">
+                            <img src="img/noticias.jpg" width="30">
+                        </div>
+                        <span class="nav-link">Olá <?php echo $nome; ?><a href="php/actions/sair.php" class="nav-link ml-1">Sair</a>
+                  </li>
+
+                  <?php } else {?>
       
                     <li class="nav-item m-1">
-                      <a href="login.php" class="btn btn-outline-dark ml-lg-4">Log In</a>
+                      <a href="login.php" class="btn btn-outline-dark ml-lg-4">Login</a>
                     </li>
+
+                  <?php } ?>
                   </ul>
                 </div>
               </div>
