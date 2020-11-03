@@ -1,10 +1,6 @@
 <?php
         require_once "php/actions/conexao.php";
-
-        session_start();
-
-        echo $_SESSION['id_usuario'];
-        echo $_SESSION['nome'];
-        echo $_SESSION['email'];
+        include_once "php/includes/head.php";
+        include_once "php/includes/header.php";
 
 ?>
