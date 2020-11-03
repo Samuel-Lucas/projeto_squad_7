@@ -45,6 +45,16 @@
                                 <input type="text" name="email" class="form-control email" placeholder="E-mail"><br>
 
                                 <input type="password" name="senha" class="form-control senha" placeholder="Senha"><br>
+                                    
+                                <?php
+                                    if(isset($_SESSION['nao_autenticado'])) {
+                                ?>
+
+                                <div class="container bg-danger p-2 mb-2">
+                                    <p class="text-white my-auto">ERRO: E-mail ou Senha inválidos</p>
+                                </div>
+
+                                <?php } unset($_SESSION['nao_autenticado']); ?>
 
                                 <button type="submit" class="btn btn-info btn-block">Entrar</button>
                             </form>
