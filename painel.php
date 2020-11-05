@@ -4,22 +4,33 @@
         include_once "php/includes/header.php";
         include "php/actions/verifica_login.php";
 
+        if(isset($_SESSION['atividade_sucesso'])) {
+                echo "<script> alert('Atividade Cadastrada com Sucesso !')</script>";
+    
+                unset($_SESSION['atividade_sucesso']);
+        }
+
 ?>      
         <h3 class="text-center mt-3">Seu Perfil</h3>
 
         <div class="container">
                 <div class="row">
-                        <div class="col-md-6">
-                            <h4 class="text-center mt-2">Suas atividades</h4>
-                        </div>
-
                         <div class="col-md-6 mx-auto">
-                                <div class="d-flex justify-content-center mb-3">
-                                   <img src="img/img_perfil.jpg" width="150" height="150">
-                                </div>
+                             <div class="d-flex justify-content-center mb-3">
 
-                                <a class="text-secondary mt-2" href="incluir_atividade.php">Incluir atividade</a><br>
-                                <a class="text-secondary mt-2" href="atividades_cadastradas.php">Suas atividades</a><br>
+                                <div class="d-flex flex-column">
+                                   <img src="img/img_perfil2.jpg" class="img-fluid m-2" width="150" height="150">
+                                   <a class="btn btn-secondary"href="#">Editar Perfil</a>
+                                </div>
+                             </div>
+
+
+                             <div class="d-flex flex-column align-items-center mb-2">
+                                <a class="text-info mt-2" href="atividades_cadastradas.php">Suas atividades</a>
+                                <a class="text-info mt-2" href="incluir_atividade.php">Incluir atividade</a>
+                             </div>
                         </div>
                 </div>
         </div>
+
+<?php include_once "php/includes/final_html.php"; ?>

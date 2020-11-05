@@ -1,5 +1,20 @@
+<?php  
+        session_start();
 
-    <?php include_once "php/includes/head.php"; ?>
+        include_once "php/includes/head.php";
+        
+        if(isset($_SESSION['erro_cadastro_user'])) {
+            echo "<script> alert('Faltam campos para Preencher !')</script>";
+    
+            unset($_SESSION['erro_cadastro_user']);
+        }
+
+        if(isset($_SESSION['igual'])) {
+            echo "<script> alert('E-mail já existe, tente outro !')</script>";
+    
+            unset($_SESSION['igual']);
+        }
+?>
 
         <div class="container p-5 mt-4 mb-3 container_login">
             <div class="logo d-flex justify-content-center mb-4">

@@ -20,7 +20,7 @@ function validar() {
         else if(perfil == '') {
             alert('Escolha o seu Perfil')
             form_cadastro.perfil.focus()
-           return false
+            return false
         }
 
         else if(email == '' || email.indexOf('@') == -1) {
@@ -53,5 +53,5 @@ function validar() {
             form_cadastro.senha.focus()
             form_cadastro.confirmasenha.focus()
             return false
-        }     
+        }       
 }

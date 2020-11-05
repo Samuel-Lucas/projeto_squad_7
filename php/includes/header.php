@@ -38,14 +38,7 @@
                             <img src="img/metodologia_ativa.jpg" width="30">
                         </div>
                         <a href="#" class="nav-link ml-1">Metodologias Ativas</a>
-                    </li>
-      
-                    <li class="nav-item d-flex m-1">
-                        <div class="d-block d-md-none">
-                            <img src="img/noticias.jpg" width="30">
-                        </div>
-                        <a href="#" class="nav-link ml-1">Notícias</a>
-                    </li>
+                    </li>          
                               
                 <?php
 
@@ -55,12 +48,19 @@
    
                 ?>
 
-                  <li class="nav-item d-flex m-1">
-                        <div class="d-block d-md-none">
-                            <img src="img/noticias.jpg" width="30">
-                        </div>
-                        <span class="nav-link">Olá <?php echo $nome; ?><a href="php/actions/sair.php" class="nav-link ml-1">Sair</a>
-                  </li>
+                <li class="nav-item d-flex m-1">
+                      <a href="painel.php" class="nav-link ml-1">Perfil</a>
+                </li>
+
+                <li class="nav-item d-flex m-1 dropdown show">
+                  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Olá <?php echo $nome; ?>
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="php/actions/sair.php">Sair</a>
+                  </div>
+                </li>
 
                   <?php } else {?>
       

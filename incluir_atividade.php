@@ -3,6 +3,12 @@
         include_once "php/includes/head.php";
         include_once "php/includes/header.php";
         include "php/actions/verifica_login.php";
+
+        if(isset($_SESSION['erro_atividade'])) {
+            echo "<script> alert('Faltam campos para Preencher')</script>";
+
+            unset($_SESSION['erro_atividade']);
+        }
 ?>      
 
     <div class="container">
@@ -57,3 +63,5 @@
             </div>
         </form>
     </div>
+
+<?php include_once "php/includes/final_html.php"; ?>
