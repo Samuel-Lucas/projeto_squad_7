@@ -13,8 +13,11 @@
                 <ul class="ml-4">
                     <li> O(A) professor(a) é nosso protagonista; </li>
                     <li> Compartilhando ensinamentos e boas páticas em metodologias ativas podemos aumentar os níveis de ensino e retenção do aprendizado dos nossos alunos.</li>
-                    <li> Com o trabalho de educaçâo inclusiva, podemos minimizar as evasões escolares. </li>
-                </ul>
+                    <li> Com o trabalho de educaçâo inclusiva, podemos minimizar as evasões escolares, aumentar o engajamento e a retenção do aprendizado ao longo da vida escolar. </li>
+                    <li> O IDEB 2019 mostra com dados a necessidade de adotar medidas para avanços na aprendizagem ao longo da vida escolar, e as metodologias ativas podem gerar 
+                            avanços na construção do conhecimento e retençaõ de conteúdos. </li>
+                    <li style="list-style: none; text-align: center;"><img src="img/dados_aprendizagem" alt="Card image cap"></li>
+                </ul><br/>
                 </p>
             </div>
         </div>
