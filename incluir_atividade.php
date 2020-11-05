@@ -17,7 +17,7 @@
 
     <h3 class="text-center">Incluir atividade</h3>
 
-    <div class="container mt-4">
+    <div class="container mt-4 mb-5">
 
         <form action="php/actions/cadastrar_atividade.php" method="post" class="form-group">
 

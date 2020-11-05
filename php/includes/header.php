@@ -30,14 +30,14 @@
                         <div class="d-block d-md-none">
                             <img src="img/quem_somos.jpg" width="30">
                         </div>
-                        <a href="#" class="nav-link ml-1">Quem Somos</a>
+                        <a href="quemSomos.php" class="nav-link ml-1">Quem Somos</a>
                     </li>
       
                     <li class="nav-item d-flex m-1">
                         <div class="d-block d-md-none">
                             <img src="img/metodologia_ativa.jpg" width="30">
                         </div>
-                        <a href="#" class="nav-link ml-1">Metodologias Ativas</a>
+                        <a href="metodologiasAtivas.php" class="nav-link ml-1">Metodologias Ativas</a>
                     </li>          
                               
                 <?php

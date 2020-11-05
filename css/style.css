@@ -9,6 +9,10 @@
     height: 300px;
 }
 
+.link-color:hover {
+    color: gray;
+}
+
 .jumbotron h3 {
     text-shadow: 1px 1px black;
 }
