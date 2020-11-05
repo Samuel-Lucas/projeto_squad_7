@@ -1,11 +1,10 @@
-
-    <?php include_once "php/includes/head.php"; ?>
+<?php include_once "php/includes/head.php"; ?>
     <?php include_once "php/includes/header.php"; ?>
 
           <div class="container mb-5">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/img_principal.jpg) no-repeat">
-                <a class="link-color" href="metodologiasAtivas.php"><h3 class="text-center text-white mt-5">Por que aplicar Metodologias Ativas em escolas vulneráveis ?</h3></a>
-            </div>
+            <a class="link-color" style="text-decoration: none;" href="aplicacaoMetodologia.php"><div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/img_principal.jpg) no-repeat">
+              <h3 class="text-center text-white mt-5">Por que aplicar Metodologias Ativas em escolas vulneráveis ?</h3>
+            </div></a>
 
             <h4 class="text-center text-secondary mb-4">Metodologias Ativas</h4>
 
