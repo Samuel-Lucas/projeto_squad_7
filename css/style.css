@@ -40,32 +40,3 @@
     background: url("../img/email.png") no-repeat left;
     background-position-x: 7px;
 }
-
-.senha {
-    padding-left: 35px;     
-    padding-top: 5px;        
-    background: url("../img/cadeado.png") no-repeat left;
-    background-position-x: 10px;
-}
-
-.container_login {
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 2px 1.5px 1.5px 2px grey;
-}
-
-@media (max-width : 768px) {
-    .bloco_esquerdo {
-        border-bottom: 1px solid rgb(179, 177, 177);
-    }
-}
-
-@media (min-width : 768px) {
-    .bloco_esquerdo {
-        border-right: 1px solid rgb(182, 181, 181);
-    }
-}
-
-.bg-gray {
-    background-color: #c2c2d6;
-}
