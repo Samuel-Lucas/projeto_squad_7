@@ -33,10 +33,13 @@
                     <div class="col-md-5 ml-md-3 mt-3">
                         <h3 class="text-center">Crie uma conta</h3>
                         <div class="container">
-                            <form id="form_submit" name="form_cadastro" action="php/actions/cadastrar.php" method="post" class="form-group">
+                            <form name="form" onsubmit="return validaForm(this);" action="php/actions/cadastrar.php" method="post" class="form-group">
 
                                 <label>Nome: </label><br>
                                 <input type="text" name="nome" class="form-control" placeholder="Digite seu nome"><br>
+
+                                <label>Sobrenome: </label><br>
+                                <input type="text" name="sobrenome" class="form-control" placeholder="Digite seu sobrenome"><br>
 
                                 <label>Gênero: </label><br>
                                 <span class="m-1"><input type="radio" name="genero" value="masculino"> Masculino</span><br>
@@ -60,7 +63,7 @@
                                 <label>Confirmar Senha:</label><br>
                                 <input type="password" name="confirmasenha" class="form-control" placeholder="Confirme sua senha"><br>
 
-                                <button type="submit" class="btn btn-success btn-block" onclick="validar()">Cadastrar</button>
+                                <button type="submit" class="btn btn-success btn-block">Cadastrar</button>
                             </form>
 
                             <span>Já tem uma conta ? <a href="login.php" class="text-secondary ml-auto">Fazer login</a></span>
@@ -70,9 +73,4 @@
             </div>
         </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="script/script.js"></script>
-    </body>
-</html>
+<?php include_once "php/includes/final_html.php"; ?>

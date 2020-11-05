@@ -24,19 +24,20 @@
             <label>Disciplina:</label><br>
             <select name="disciplina" class="form-control bg-gray">
                 <option value="">Escolha uma disciplina</option>
-                <option value="linguagens">Linguagens</option>
-                <option value="matematica">Matemática</option>
-                <option value="cienciasdanatureza">Ciências da Natureza</option>
+                <option value="Linguagens">Linguagens</option>
+                <option value="Ciências Humanas">Ciências Humanas</option>
+                <option value="Matemática">Matemática</option>
+                <option value="Ciências da Natureza">Ciências da Natureza</option>
             </select><br><br>
 
             <label>Metodologia</label><br>
 
             <div class="d-flex flex-wrap justify-content-md-between justify-content-sm-around">
-                <span><input type="radio" name="metodologia" value="mao_na_massa"> Mão na Massa</span>
-                <span><input type="radio" name="metodologia" value="sala_invertida"> Sala de aula Invertida</span>
-                <span><input type="radio" name="metodologia" value="aprendizagem_em_dupla"> Aprendizagem em Dupla</span>
-                <span><input type="radio" name="metodologia" value="gameficacao"> Gameficação</span>
-                <span><input type="radio" name="metodologia" value="tecnologias_criativas"> Tecnologias Criativas</span>
+                <span><input type="radio" name="metodologia" value="Mão na massa"> Mão na Massa</span>
+                <span><input type="radio" name="metodologia" value="Sala invertida"> Sala de aula Invertida</span>
+                <span><input type="radio" name="metodologia" value="Aprendizagem em dupla"> Aprendizagem em Dupla</span>
+                <span><input type="radio" name="metodologia" value="Gameficação"> Gameficação</span>
+                <span><input type="radio" name="metodologia" value="Tecnologias criativas"> Tecnologias Criativas</span>
             </div><br><br>
 
             <span><label>Título: </label> <input type="text" name="titulo" class="form-control bg-gray"></span><br>
@@ -47,7 +48,7 @@
 
             <h4 class="text-secondary mt-3">Anexos</h4><br>
 
-            <span><label>Links: </label> <input type="text" name="links" class="form-control bg-gray"></span><br>
+            <span><label>Links: </label> <input placeholder="Links de Fontes" type="text" name="links" class="form-control bg-gray"></span><br>
 
             <span>Upload: Passo_a_Passo.pdf (Exemplo)</span><br><br><br>
 
