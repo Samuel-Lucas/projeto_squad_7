@@ -8,7 +8,7 @@
                 <p> &numsp; &numsp; Comunidade de professores que compartilham metodologias ativas e boas práticas pedagógicas voltadas para escolas vulneráveis.</p><br/>
                 <h4> Nossa Missão </h4><br/>
                 <p> &numsp; &numsp; Aumentar o alcance das metodologias ativas a serem aplicadas dentro e fora da sala de aula, utilizando matéria prima de fácil acesso e materiais reciclados, aliados a conteúdo aplicado dentro da BNCC. </p><br/>
-                <a name="vantagens"><h4>Vantagens</h4></a>
+                <h4>Vantagens</h4>
                 <p>
                 <ul class="ml-4">
                     <li> O(A) professor(a) é nosso protagonista; </li>
@@ -16,7 +16,7 @@
                     <li> Com o trabalho de educaçâo inclusiva, podemos minimizar as evasões escolares, aumentar o engajamento e a retenção do aprendizado ao longo da vida escolar. </li>
                     <li> O IDEB 2019 mostra com dados a necessidade de adotar medidas para avanços na aprendizagem ao longo da vida escolar, e as metodologias ativas podem gerar 
                             avanços na construção do conhecimento e retençaõ de conteúdos. </li>
-                    <li style="list-style: none; text-align: center;"><img src="img/dados_aprendizagem" alt="Card image cap"></li>
+                    <li style="list-style: none; text-align: center; text-indent:-4em;"><img src="img/dados_aprendizagem.png" alt="Card image cap"></li>
                 </ul><br/>
                 </p>
             </div>
