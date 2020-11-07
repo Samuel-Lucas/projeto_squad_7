@@ -9,19 +9,19 @@
                 Materiais para alavancar o aprendizado através de metodologias ativas dentro e fora da sala de aula para escolas com público vulnerável.<br/><br/>
                 Compartilhamento de boas práticas entre escolas e fortalecimento da rede de ensino.</p><br/>
                 <div class="row d-flex flex-wrap">
-                    <div class="card-body mx-auto" style="width: 12rem; cursor: pointer; text-align: center;">
-                        <a href="ensinoFundamental.php"><h6 class="card-title"><strong>Metodologias Ativas para Ensino Fundamental</strong></h6>
+                    <div class="card-body mx-auto ensino">
+                        <a href="ensinoFundamental.php"><h6 class="card-title hover"><strong>Metodologias Ativas para Ensino Fundamental</strong></h6>
                         <img src="img/ensinoFundamental.png" alt="Metodologias Ativas para Ensino Fundamental"></a>
                     </div>
-                    <div class="card-body mx-auto" style="width: 12rem; text-align: center;">
+                    <div class="card-body mx-auto ensino desativado">
                         <h6 class="card-title"><strong>Metodologias Ativas para Ensino Médio</strong></h6>
                         <img src="img/ensinoMedio.png" alt="Card image cap">
                     </div>
-                    <div class="card-body mx-auto" style="width: 12rem; text-align: center;">
+                    <div class="card-body mx-auto ensino desativado">
                         <h6 class="card-title"><strong>Metodologias Ativas para EJA</strong></h6><br/>
                         <img src="img/ensinoEAD.png" alt="Card image cap">
                     </div>
-                    <div class="card-body mx-auto" style="width: 12rem; cursor: pointer; text-align: center;">
+                    <div class="card-body mx-auto ensino">
                         <a href="boasPraticas.php"><h6 class="card-title"><strong>Boas práticas Gerais</strong></h6><br/>
                         <img src="img/boasPraticas.png" alt="Card image cap"></a>
                     </div>

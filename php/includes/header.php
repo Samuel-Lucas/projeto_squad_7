@@ -21,9 +21,9 @@
 
                     <li class="nav-item d-flex m-1">
                         <div class="d-block d-md-none">
-                            <img src="img/escola_ativa.jpg" width="30">
+                            <img src="img/index.php" width="30">
                         </div>
-                        <a href="#" class="nav-link ml-1">Comunidade Escola Ativa</a>
+                        <a href="index.php" class="nav-link ml-1">Comunidade Escola Ativa</a>
                     </li>
       
                     <li class="nav-item d-flex m-1">
